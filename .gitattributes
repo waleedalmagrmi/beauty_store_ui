@@ -1,4 +1,4 @@
-# Mark platform-specific generated code as vendored so Linguist ignores it
+# تجاهل ملفات المنصات التي تحتوي ملفات C++ كبيرة
 /windows/** linguist-vendored
 /linux/** linguist-vendored
 /macos/** linguist-vendored
@@ -8,12 +8,12 @@
 /android/.idea/** linguist-vendored
 /android/** linguist-vendored
 
-# Ignore generated C++ files
+# تجاهل ملفات C++ المولدة
 **/*.cc linguist-vendored
 **/*.cpp linguist-vendored
 **/*.h linguist-vendored
 
-# Ensure Dart files are counted as Dart
+# تأكيد أن ملفات Dart تحت lib/ تظهر كلغة Dart
 lib/** linguist-language=Dart
 *.dart linguist-language=Dart
 pubspec.yaml linguist-language=YAML
