@@ -1,0 +1,19 @@
+# Mark platform-specific generated code as vendored so Linguist ignores it
+/windows/** linguist-vendored
+/linux/** linguist-vendored
+/macos/** linguist-vendored
+/ios/Flutter/** linguist-vendored
+/ios/Pods/** linguist-vendored
+/android/.gradle/** linguist-vendored
+/android/.idea/** linguist-vendored
+/android/** linguist-vendored
+
+# Ignore generated C++ files
+**/*.cc linguist-vendored
+**/*.cpp linguist-vendored
+**/*.h linguist-vendored
+
+# Ensure Dart files are counted as Dart
+lib/** linguist-language=Dart
+*.dart linguist-language=Dart
+pubspec.yaml linguist-language=YAML
